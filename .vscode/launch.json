@@ -7,6 +7,16 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "nodemon",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceRoot}/server/server.js",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceRoot}/server/server.js"
     }
